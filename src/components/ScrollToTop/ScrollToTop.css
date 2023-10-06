@@ -1,0 +1,25 @@
+.app__backToTop{
+    position: fixed;
+    bottom: 25px;
+    z-index: 1;
+    cursor: pointer;
+    right: 4%;
+    background: none;
+    border: none;
+    opacity: 0.7;
+}
+
+.app__backToTop-img {
+    transform: rotate(-90deg);
+    width: 40px;
+}
+
+.app__backToTop p{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-size: 16px;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+   
+}
